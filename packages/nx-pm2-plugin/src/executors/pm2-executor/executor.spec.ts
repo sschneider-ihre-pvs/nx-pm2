@@ -14,7 +14,7 @@ describe('Pm2Executor Executor', () => {
 
     const options: Pm2ExecutorSchema = {
       command: 'start',
-      instances: 1,
+      instances: '1',
       name: 'api',
       max_memory_restart: '1G',
       error_file: 'error.log',
