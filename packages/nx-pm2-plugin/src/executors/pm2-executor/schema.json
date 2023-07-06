@@ -12,8 +12,8 @@
     },
 
     "instances": {
-      "type": "number",
-      "description": "Number of instances to start"
+      "type": "string",
+      "description": "Number of instances to start as string"
     },
 
     "max_memory_restart": {
